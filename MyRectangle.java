@@ -34,7 +34,7 @@ public class MyRectangle {
         this.bottomRight = bottomRight;
     }
 
-    // calculates the width 
+    // calculates the width
     public int getWidth() {
         return Math.abs(bottomRight.getX() - topLeft.getX());
     }
