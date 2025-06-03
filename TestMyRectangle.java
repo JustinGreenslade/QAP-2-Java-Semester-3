@@ -5,6 +5,7 @@ public class TestMyRectangle {
         MyPoint p1 = new MyPoint(1, 5);  // top left corner
         MyPoint p2 = new MyPoint(6, 1);  // bottom right corner
 
+        System.out.println();
         // makes a rectangle using those points
         MyRectangle rect = new MyRectangle(p1, p2);
 

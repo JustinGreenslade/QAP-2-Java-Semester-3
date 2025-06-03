@@ -3,6 +3,7 @@ public class TestMyLine {
         // make a line that goes from (1, 1) to (4, 5)
         MyLine line = new MyLine(1, 1, 4, 5);
 
+        System.out.println();
         // print the whole line 
         System.out.println("Line: " + line);
 
